@@ -4,9 +4,10 @@
 Console.WriteLine("введите число: ");
 int x = Convert.ToInt32(Console.ReadLine());
 string xText = Convert.ToString(x);
-if ( xText.Length > 2)
-    Console.WriteLine("Третья цифра: " + xText[2]);
+{
+    if ( xText.Length > 2)
+        Console.WriteLine("Третья цифра: " + xText[2]);
 
-else 
-    Console.WriteLine("Третьей цифры нет");
-// 
+    else 
+        Console.WriteLine("Третьей цифры нет");
+} 
